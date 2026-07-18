@@ -137,11 +137,7 @@
           <aside class="hero__card" aria-labelledby="hero-form-title">
             <h2 id="hero-form-title" class="hero__card-title">Request a Free Estimate</h2>
             <p class="hero__card-subtitle">Most requests get a call back within two hours</p>
-            <form class="form" name="hero-estimate" method="POST" action="thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="hero-estimate">
-              <p class="visually-hidden">
-                <label>Don’t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
-              </p>
+            <form class="form" name="hero-estimate" method="get" action="thank-you.html">
               <div class="form__group">
                 <label for="hero-name" class="form__label">Full Name</label>
                 <input type="text" id="hero-name" name="name" class="form__input" placeholder="John Smith" required autocomplete="name">

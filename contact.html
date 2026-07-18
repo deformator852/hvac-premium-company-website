@@ -179,11 +179,7 @@
           <div class="contact__form-wrapper">
             <h2 id="contact-title" class="contact__form-heading">Request a Callback</h2>
             <p class="contact__form-intro">Tell us what's going on and the best number to reach you. Weekday requests usually get a call back within two hours.</p>
-            <form class="form" name="contact" method="POST" action="thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contact">
-              <p class="visually-hidden">
-                <label>Don’t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
-              </p>
+            <form class="form" name="contact" method="get" action="thank-you.html">
               <div class="form__row">
                 <div class="form__group">
                   <label for="contact-name" class="form__label">Full Name</label>
