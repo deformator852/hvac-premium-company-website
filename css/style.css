@@ -1,0 +1,15 @@
+/*
+Theme Name: Summit Climate Systems
+Theme URI: https://example.com/summit-climate
+Author: Summit Climate Systems
+Description: Premium HVAC company landing page theme. Built with semantic HTML5, BEM methodology, CSS custom properties, Flexbox and Grid.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: summit-climate
+*/
+
+@import url("variables.css");
+@import url("base.css");
+@import url("layout.css");
+@import url("components.css");
+@import url("pages.css");

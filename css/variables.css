@@ -1,0 +1,88 @@
+:root {
+  /* Brand colors */
+  --color-primary: #0c2340;
+  --color-primary-light: #1a3a5c;
+  --color-accent: #c8922a;
+  --color-accent-hover: #b07d1f;
+  --color-accent-light: #f5e6c8;
+
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-off-white: #f8f9fb;
+  --color-gray-100: #eef1f5;
+  --color-gray-200: #d8dee8;
+  --color-gray-400: #8a96a8;
+  --color-gray-600: #4a5568;
+  --color-gray-800: #2d3748;
+  --color-black: #0a0f18;
+
+  /* Semantic */
+  --color-text: var(--color-gray-800);
+  --color-text-muted: var(--color-gray-600);
+  --color-text-inverse: var(--color-white);
+  --color-bg: var(--color-white);
+  --color-bg-alt: var(--color-off-white);
+  --color-border: var(--color-gray-200);
+
+  /* Typography */
+  --font-heading: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-body: "Manrope", system-ui, -apple-system, sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.75rem;
+  --font-size-5xl: 3.5rem;
+
+  --line-height-tight: 1.2;
+  --line-height-base: 1.6;
+  --line-height-loose: 1.8;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Layout */
+  --container-max: 72rem;
+  --container-narrow: 48rem;
+  --header-height: 5rem;
+
+  /* Borders & shadows */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 3px rgba(12, 35, 64, 0.08);
+  --shadow-md: 0 4px 16px rgba(12, 35, 64, 0.1);
+  --shadow-lg: 0 12px 40px rgba(12, 35, 64, 0.15);
+  --shadow-xl: 0 20px 60px rgba(12, 35, 64, 0.2);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Z-index scale */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+}
