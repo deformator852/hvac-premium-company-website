@@ -137,7 +137,7 @@
           <aside class="hero__card" aria-labelledby="hero-form-title">
             <h2 id="hero-form-title" class="hero__card-title">Request a Free Estimate</h2>
             <p class="hero__card-subtitle">Most requests get a call back within two hours</p>
-            <form class="form" name="hero-estimate" method="get" action="thank-you.html">
+            <form class="form" name="hero-estimate" action="thank-you.html" onsubmit="location.href='thank-you.html'; return false;">
               <div class="form__group">
                 <label for="hero-name" class="form__label">Full Name</label>
                 <input type="text" id="hero-name" name="name" class="form__input" placeholder="John Smith" required autocomplete="name">
